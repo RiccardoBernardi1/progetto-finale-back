@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+//---- welcome-page ----//
+.ms-welcome-image{
+    padding: 55px ;
+}
+.ms-welcome-text{
+    padding:30px ;
+}
+.ms-welcome-p{
+    font-size:20px;
+}
+
+
+.ms-link-logo{
+    text-decoration:none !important;
+    display: flex;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+
+    .ms-logo-img{
+        width: 5rem;
+    }
+
+    .ms-logo-name{
+        color:  rgba(23, 196, 185, 1);
+        font-size:40px;
+    }
+}
+
+.jumbotron-container{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.find-restaurant-input{
+    width: 25rem;
+    height: 3.75rem;
+}
+
+.nav-link:hover{
+    color: rgba(23, 196, 185, 1);
+}
+
+.dropdown-item:hover{
+    background-color: rgba(23, 196, 185, 1);
+    color:#fff;
+}
+
+.active{
+    color: rgba(23, 196, 185, 1) !important;
+}
